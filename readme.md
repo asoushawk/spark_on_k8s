@@ -109,6 +109,8 @@ automatic submition of spark jobs capabilities, all together with a S3A connecti
             version: 3.0.0
  ```
 
+ ### 6 - After submiting, the executor pods will be created on runtime, and killed automatically after the job is completed.
+
 
 
   
