@@ -23,7 +23,11 @@ if __name__ == "__main__":
     #simple sample job
 
     data = spark.read.json(os.environ['FILE_PATH'])
-    data.show()
+    data.createOrReplaceTempView("data")
+    
+    df = spark.sql("SELECT * FROM data LIMIT 10")
+    df.show()
+
 
 
 
