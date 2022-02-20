@@ -1,6 +1,6 @@
 # Spark on K8S using Google's Spark Operator 
 
-`This projects showcases PySpark on K8S`. You can run jobs in a K8S setup, having scalability and multi-workers pods and
+`This projects showcases PySpark on K8S`. You can run jobs in a K8S setup, having scalability, multi-workers pods and
 automatic submition of spark jobs capabilities, all together with a S3A connection, being able to connect to S3 in order to do write and read operations.  
 
  ## You can run the job on Docker by using
